@@ -124,7 +124,7 @@
                         buttonbox.style.padding = "2pt"
                         buttonbox.style.paddingRight = "10pt"
                         buttonbox.style.paddingLeft = "10pt"
-                        buttonbox.style.width = "15em"
+                        buttonbox.style.width = "100%"
                         buttonbox.style.display = "inline-block"	
                         document.body.appendChild(buttonbox)
 
@@ -218,7 +218,7 @@
 						
 				var BT5 = document.createElement("button")
                         BT5.id = "ShowHidemyMeshesFive"
-                        BT5.textContent = "Stěny 1. patro"
+                        BT5.textContent = "Stěna černé kuchyně"
                         BT5.style.backgroundColor = "limegreen"
                         BT5.style.display = "round"
                         BT5.style.width = "100%"
@@ -248,7 +248,7 @@
 						
 				var BT7 = document.createElement("button")
                         BT7.id = "ShowHidemyMeshesSeven"
-                        BT7.textContent = "Strop ve světnici"
+                        BT7.textContent = "Okna a dvěře"
                         BT7.style.backgroundColor = "red"
                         BT7.style.display = "round"
                         BT7.style.width = "100%"
@@ -293,7 +293,7 @@
 						
 					var BT10 = document.createElement("button")
                         BT10.id = "ShowHidemyMeshesTen"
-                        BT10.textContent = "Pec a patro mlýnice"
+                        BT10.textContent = "Pavlač"
                         BT10.style.backgroundColor = "red"
                         BT10.style.display = "round"
                         BT10.style.width = "100%"
@@ -338,7 +338,7 @@
 												
 						var BT14 = document.createElement("button")
                         BT14.id = "ShowHidemyMeshesTwelve"
-                        BT14.textContent = "Sklep - oblodové stěny"
+                        BT14.textContent = "Sklep - obvodové stěny"
                         BT14.style.backgroundColor = "limegreen"
                         BT14.style.display = "round"
                         BT14.style.width = "100%"
@@ -362,7 +362,7 @@
                         BT15.onclick = function() {
                           // Show/Hide myMeshThree
                         (ob15.visible)?ob15.visible=false:ob15.visible=true
-                                         enable=ob6.visible
+                                         enable=ob15.visible
                           BT15.style.backgroundColor = enable ? "limegreen" : "red"
                         }
 						
