@@ -217,20 +217,7 @@
                           BT13.style.backgroundColor = enable ? "limegreen" : "red"
                         }		
 						
-				var BT5 = document.createElement("button")
-                        BT5.id = "ShowHidemyMeshesFive"
-                        BT5.textContent = "Podezdivka"
-                        BT5.style.backgroundColor = "limegreen"
-                        BT5.style.display = "round"
-                        BT5.style.width = "100%"
-                        BT5.style.fontSize = "1.1em"
-                        buttonbox.appendChild(BT5)
-                        BT5.onclick = function() {
-                          // Show/Hide myMeshThree
-                        (ob12.visible)?ob12.visible=false:ob12.visible=true
-                                         enable=ob12.visible
-                          BT5.style.backgroundColor = enable ? "limegreen" : "red"
-                        }		
+	
 				
 				var BT6 = document.createElement("button")
                         BT6.id = "ShowHidemyMeshesSix"
@@ -306,6 +293,21 @@
                         (ob11.visible)?ob11.visible=false:ob11.visible=true
                                          enable=ob11.visible
                           BT11.style.backgroundColor = enable ? "limegreen" : "red"
+                        }	
+						
+										var BT5 = document.createElement("button")
+                        BT5.id = "ShowHidemyMeshesFive"
+                        BT5.textContent = "Podezdivka"
+                        BT5.style.backgroundColor = "limegreen"
+                        BT5.style.display = "round"
+                        BT5.style.width = "100%"
+                        BT5.style.fontSize = "1.1em"
+                        buttonbox.appendChild(BT5)
+                        BT5.onclick = function() {
+                          // Show/Hide myMeshThree
+                        (ob12.visible)?ob12.visible=false:ob12.visible=true
+                                         enable=ob12.visible
+                          BT5.style.backgroundColor = enable ? "limegreen" : "red"
                         }	
 						
 						var BT12 = document.createElement("button")
